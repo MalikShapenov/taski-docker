@@ -5,6 +5,7 @@ name: Main Taski Workflow
 on:
   # Событие push возникает,
   # когда изменения исходного кода приходят на сервер GitHub
+  push:
     # Отслеживаем изменения только в ветке main
     branches:
       - main
